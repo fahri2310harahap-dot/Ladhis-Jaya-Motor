@@ -1,0 +1,243 @@
+
+/* index.html */
+body {
+    background-color: rgb(29, 29, 32);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 20px 40px;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.menu li a {
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu li a:hover {
+    color: #ff1616;
+}
+
+.Banner {
+    width: 100%;
+    margin: 0;
+    padding 0;
+}
+.Banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.brand {
+    font-size: 30px;
+    text-align: center  
+}
+
+.Ladhis {
+    color: #ffffffda;
+}
+.jaya {
+    color: #ff2020;
+    
+}
+
+.index h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #ffffffeb;
+}
+
+.keunggulan {
+    color: azure;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin right: 20px;
+}
+/* index.html */
+
+
+/* TENTANG.HTML */
+.tentang {
+    background-color: rgb(29, 29, 32);
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.tentang div {
+    color: rgb(209, 209, 209);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.penjelasan {
+    
+}
+
+.visimisi {
+    color: whitesmoke;
+    margin-bottom: 100px;
+}
+
+.tombolkembali {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #283f8b;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 100px;
+    height: 18px;
+    margin-left: 20px;
+}
+
+.tombolkembali :hover {
+    background-color: #0d0d0e;
+}
+
+
+/* LAYANAN PRODUK */
+.layananproduk {
+    color: rgb(211, 211, 211);
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.judul {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.servis-rutin{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.layanan-teks {
+    
+    gap: 30px;
+    flex-direction: column;
+    
+}
+
+.ganti-oli{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.ganti-oli-teks {
+    
+    gap: 30px;
+    flex-direction: column;
+    
+}
+
+.polish{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 70px;
+    margin-bottom: 35px;
+}
+
+.polsih-teks {
+    
+    gap: 30px;
+    flex-direction: column;
+
+    
+}
+
+.kelistrikan{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.kelistrikan-teks {
+    
+    gap: 30px;
+    flex-direction: column;
+    
+}
+
+
+.servis-karburator{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.karburator-teks {
+    
+    gap: 30px;
+    flex-direction: column;
+    
+}
+
+
+.tombol-kembali-layanan {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #283f8b;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 100px;
+    height: 18px;
+    margin-left: -50px;
+    margin-top: 70px;
+}
+
+.tombol-kembali-layanan :hover {
+    background-color: #0d0d0e;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 20px;
+}
